@@ -1,0 +1,150 @@
+header {
+  padding: 20px;
+  background-color: antiquewhite;
+
+  border-bottom: 4px solid rgb(157, 143, 119);
+  align-items: center;
+}
+header .konten {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.konten input {
+  border-radius: 10px;
+  padding: 4px 4px 4px 10px;
+  width: 24rem;
+  border: none;
+  outline: 2px solid rgb(188, 174, 156);
+}
+.konten input::placeholder {
+  color: rgb(119, 116, 116);
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  background-color: antiquewhite;
+  max-width: 600px;
+  padding: 20px;
+  margin-left: 0;
+  right: auto;
+  border-radius: 5px;
+}
+
+form * {
+  margin-bottom: 10px;
+}
+form p {
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+form input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+form input:focus {
+  outline: 2px solid rgb(150, 144, 110);
+}
+
+form textarea {
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 8px;
+}
+form textarea:focus {
+  outline: 2px solid rgb(150, 144, 110);
+}
+
+form button {
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(209, 193, 171);
+  cursor: pointer;
+  outline: 2px solid rgb(150, 144, 110);
+  color: white;
+  font-weight: 700;
+  font-size: medium;
+}
+form button:hover {
+  background-color: rgb(213, 211, 208);
+}
+
+.konten-mod {
+  margin-left: 0;
+  margin-right: auto;
+}
+.container h3 {
+  margin-left: 0;
+  margin-right: auto;
+  font-size: 26px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.konten-mod {
+  display: flex;
+  flex-wrap: wrap;
+}
+.konten-mod .konten {
+  background-color: antiquewhite;
+  width: 300px;
+  margin: 10px;
+  border-radius: 4px;
+  padding: 5px;
+}
+.konten h4,
+.konten p {
+  margin-bottom: 5px;
+}
+.konten p:nth-child(3) {
+  min-height: 200px;
+}
+
+.action a:nth-child(1):hover {
+  color: red;
+  cursor: pointer;
+}
+.action a:nth-child(2):hover {
+  color: rgb(0, 255, 162);
+  cursor: pointer;
+}
+.konten-mod .konten {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.konten .konten-text {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: justify;
+}
+.konten .action {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: 600;
+}
